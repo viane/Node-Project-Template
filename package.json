@@ -1,16 +1,16 @@
 {
-  "name": "microsoft-computer-vision",
-  "version": "0.2.6",
+  "name": "Node-Project-Template",
+  "version": "0.0.1",
   "author": "Xiaoyu Zhou <xiaoyuz2011@gmail.com>",
   "main": "./lib/index.js",
   "engines": {
-    "node": ">=5.0 <6.10",
+    "node": ">=5.0",
     "npm": ">=3.3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/viane/microsoft-computer-vision.git",
-    "homepage": "https://github.com/viane/microsoft-computer-vision/blob/master/README.md"
+    "url": "git+https://github.com/viane/Node-Project-Template.git",
+    "homepage": "https://github.com/viane/Node-Project-Template/blob/master/README.md"
   },
   "license": "MIT",
   "scripts": {
@@ -44,31 +44,22 @@
     "eslint-plugin-babel": "^3.2.0",
     "eslint-plugin-flow-vars": "^0.3.0",
     "eslint-plugin-flowtype": "^2.2.6",
-    "image-type": "^3.0.0",
     "mocha": "^2.4.5",
     "pretty-error": "^2.0.0"
   },
   "bugs": {
-    "url": "https://github.com/viane/microsoft-computer-vision/issues"
+    "url": "https://github.com/viane/Node-Project-Template/issues"
   },
-  "homepage": "https://github.com/viane/microsoft-computer-vision/blob/master/README.md",
+  "homepage": "https://github.com/viane/Node-Project-Template/blob/master/README.md",
   "directories": {
     "doc": "docs",
     "test": "tests"
   },
   "readme": "README.md",
   "dependencies": {
-    "bluebird": "^3.4.7",
-    "chai-as-promised": "^6.0.0",
-    "load-json-file": "^2.0.0",
-    "request": "^2.79.0",
-    "request-promise": "^4.1.1"
+    "chai-as-promised": "^6.0.0"
   },
   "keywords": [
-    "microsoft",
-    "cognitive",
-    "computer",
-    "vision"
   ],
-  "description": "A simple but comprehensive NodeJS library for Microsoft Computer Vision API"
+  "description": "Template compatiable with ES6 syntax"
 }
