@@ -15,7 +15,7 @@
   "license": "MIT",
   "scripts": {
     "test": "mocha tests/* --timeout 30000 --compilers js:babel-register --require ./tests/helper.js --recursive",
-    "start": "babel-node ./src/entry.js",
+    "start": "babel-node ./lib/entry.js",
     "build": "babel src --out-dir lib"
   },
   "babel": {
